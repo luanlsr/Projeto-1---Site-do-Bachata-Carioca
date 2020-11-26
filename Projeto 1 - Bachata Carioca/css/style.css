@@ -1,0 +1,195 @@
+/* cabeçalho */
+.cab {
+  width: 100%;
+  float: left;
+  padding: 50px 8%;
+  background: url(../img/panoramica-rj.png) no-repeat;
+  background-size: cover;
+}
+.logo a {
+  width: 130px;
+  height: 130px;
+  padding: 0;
+  font-size: 0;
+  background: url(../img/logo.png) no-repeat;
+  background-size: cover;
+  left: 25px;
+  top: 10px;
+  position: absolute;
+}
+/* formulário1 */
+.cab form {
+  width: 30%;
+  height: 10%;
+  float: right;
+}
+/* caixa de pesquisa */
+.cab input[type="text"] {
+  width: 85%;
+  height: 10px;
+  float: left;
+  padding: 15px 10px;
+  margin-top: 20px;
+  border-radius: 5px 5px 5px 5px;
+}
+.cab a img {
+  width: 3%;
+  padding: 15px 10px;
+  margin-top: 13px;
+  right: 150px;
+  position: absolute;
+  cursor: pointer;
+}
+
+/* Menu */
+
+.menu {
+  width: 100%;
+  top: 150px;
+  float: left;
+  background-color: rgb(0, 0, 0);
+  padding: 18px 8%;
+}
+
+.menu li {
+  float: left;
+  padding: 0 10px;
+}
+.menu li a {
+  color: #fff;
+}
+.menu li a:hover {
+  color: #ebc20c;
+}
+#face {
+  width: 30px;
+  float: right;
+  cursor: pointer;
+  display: inline;
+  margin: 0 5px 0 5px;
+}
+#insta {
+  width: 30px;
+  float: right;
+  cursor: pointer;
+  display: inline;
+  margin: 0 5px 0 5px;
+}
+#zap {
+  width: 30px;
+  float: right;
+  cursor: pointer;
+  display: inline;
+  margin: 0 5px 0 5px;
+}
+#gmail {
+  width: 50px;
+  float: right;
+  cursor: pointer;
+  display: inline;
+  margin: 0 -2px 0 -2px;
+}
+
+/* principal */
+
+.principal {
+  width: 100;
+  float: left;
+  padding: 20px 8%;
+}
+
+.sobre {
+  width: 70%;
+  float: left;
+
+  margin-right: 20px;
+  font-weight: bold;
+  display: inline;
+}
+
+.sobre img {
+  width: 30%;
+  float: left;
+  border-radius: 5px;
+  padding-right: 15px;
+}
+
+.sobre h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.sobre p {
+  text-align: justify;
+}
+/* aside */
+
+.onde-estamos {
+  margin-top: 20px;
+}
+.onde-estamos h2 {
+  padding-top: 20px;
+}
+.onde-estamos li {
+  padding-top: 20px;
+  color: rgb(0, 0, 0);
+}
+.onde-estamos p {
+  padding-bottom: 20px;
+}
+#mapa {
+  width: 280px;
+}
+
+/* section */
+
+.newsletter {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  float: left;
+  padding: 30px 8%;
+}
+.newsletter h3 {
+  font-size: 1.8em;
+  color: #fff;
+}
+.newsletter p {
+  font-size: 1.2em;
+  color: #fff;
+}
+.newsletter form {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+.newsletter form input {
+  width: 40%;
+  float: left;
+  margin-right: 1%;
+  padding: 15px 10px;
+  border: solid white;
+  border-radius: 5px;
+  color: #fff;
+  background-color: initial;
+}
+.newsletter form button {
+  cursor: pointer;
+  width: 18%;
+  padding: 15px 10px;
+  border: solid white;
+  border-radius: 5px;
+  float: right;
+}
+
+/* Footer */
+.rodape{
+  width:100%;
+  background-color: #ebc20c;
+  padding: 10px 8% ;
+  float:left;
+}
+.rodape p{
+  color: rgb(0, 0, 0) ;
+  float:right;
+}
+
